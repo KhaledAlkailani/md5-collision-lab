@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 z" fill="#EFEFEF"/></marker></defs>
+<rect width="1600" height="440" fill="#131313"/><rect x="18" y="18" width="1564" height="404" rx="34" fill="none" stroke="#EFEFEF"/>
+<text x="80" y="86" font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" font-size="26" font-weight="700" fill="#FFC000">collision_concept</text>
+<g font-family="'Cascadia Mono', Consolas, 'Courier New', monospace" text-anchor="middle">
+<rect x="100" y="165" width="340" height="110" rx="16" fill="none" stroke="#EFEFEF"/><text x="270" y="212" font-size="20" fill="#EFEFEF">alka1.bin</text><text x="270" y="245" font-size="16" fill="#8C8C8C">binary content A</text>
+<rect x="100" y="305" width="340" height="70" rx="16" fill="none" stroke="#EFEFEF"/><text x="270" y="348" font-size="20" fill="#EFEFEF">alka2.bin · different bytes</text>
+<path d="M440 220 H660" stroke="#EFEFEF" marker-end="url(#a)"/><path d="M440 340 H580 V220 H660" fill="none" stroke="#EFEFEF" marker-end="url(#a)"/>
+<path d="M680 165 L920 165 L950 195 L950 245 L920 275 L680 275 L650 245 L650 195 Z" fill="#4A2A00" stroke="#A55D00"/><text x="800" y="226" font-size="23" font-weight="700" fill="#EFEFEF">MD5</text>
+<line x1="950" y1="220" x2="1130" y2="220" stroke="#EFEFEF" marker-end="url(#a)"/>
+<rect x="1145" y="165" width="350" height="110" rx="16" fill="none" stroke="#FFC000"/><text x="1320" y="207" font-size="19" fill="#FFC000">same digest</text><text x="1320" y="242" font-size="16" fill="#EFEFEF">collision confirmed</text>
+</g></svg>
